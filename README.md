@@ -13,11 +13,15 @@ Plant diseases can significantly reduce crop yields and affect food security. Ea
 - Trains a simple K Nearest Neighbors (KNN) model for classification using OpenCV.
 - Predicts the class (healthy or diseased) of a single plant leaf image.
 
+## Dataset
+
+The dataset used in this project is sourced from the PlantVillage dataset, which consists of 54303 healthy and unhealthy leaf images divided into 38 categories by species and disease. The dataset can be found at [PlantVillage Dataset](https://data.mendeley.com/datasets/tywbtsjrjv/1).
+
 ## Requirements
 
-- Python 3.x
-- OpenCV (opencv-python)
-- NumPy
+- Python 3.11
+- OpenCV 4.9.0 (opencv-python) 
+- NumPy 1.26.4
 
 ## Usage
 
@@ -41,7 +45,7 @@ Plant diseases can significantly reduce crop yields and affect food security. Ea
 4. **Install the required packages:**
 
     ```bash
-    pip install opencv-python numpy
+    pip install opencv-python==4.9.0 numpy==1.26.4
     ```
 
 5. **Run the code:**
